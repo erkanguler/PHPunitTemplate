@@ -1,2 +1,24 @@
-Time: 0 seconds, Memory: 1.25Mb
+
+Warning: trim() expects parameter 1 to be string, array given in C:\xampp\php\pear\PHP\CodeSniffer.php on line 1048
+
+Call Stack:
+    0.0003     126616   1. {main}() C:\xampp\php\phpcs:0
+    0.0134     761136   2. PHP_CodeSniffer_CLI->process() C:\xampp\php\phpcs:37
+    0.0151     766880   3. PHP_CodeSniffer->process() C:\xampp\php\pear\PHP\CodeSniffer\CLI.php:549
+    0.0335    1117592   4. PHP_CodeSniffer->populateTokenListeners() C:\xampp\php\pear\PHP\CodeSniffer.php:458
+    0.0461    1162536   5. PHP_CodeSniffer->setSniffProperty() C:\xampp\php\pear\PHP\CodeSniffer.php:994
+    0.0461    1162624   6. trim() C:\xampp\php\pear\PHP\CodeSniffer.php:1048
+
+
+Warning: trim() expects parameter 1 to be string, array given in C:\xampp\php\pear\PHP\CodeSniffer.php on line 1048
+
+Call Stack:
+    0.0003     126616   1. {main}() C:\xampp\php\phpcs:0
+    0.0134     761136   2. PHP_CodeSniffer_CLI->process() C:\xampp\php\phpcs:37
+    0.0151     766880   3. PHP_CodeSniffer->process() C:\xampp\php\pear\PHP\CodeSniffer\CLI.php:549
+    0.0335    1117592   4. PHP_CodeSniffer->populateTokenListeners() C:\xampp\php\pear\PHP\CodeSniffer.php:458
+    0.0478    1162512   5. PHP_CodeSniffer->setSniffProperty() C:\xampp\php\pear\PHP\CodeSniffer.php:994
+    0.0478    1162600   6. trim() C:\xampp\php\pear\PHP\CodeSniffer.php:1048
+
+Time: 0 seconds, Memory: 1.75Mb
 

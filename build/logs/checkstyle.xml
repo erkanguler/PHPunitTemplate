@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="1.3.6"/>
+<checkstyle version="1.3.6">
+ <file name="C:\dloaded\NetBeansProjects\PHPunitTemplate\src\Calculator.php">
+  <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+ </file>
+ <file name="C:\dloaded\NetBeansProjects\PHPunitTemplate\src\Guestbook.php">
+  <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+ </file>
+ <file name="C:\dloaded\NetBeansProjects\PHPunitTemplate\src\Loader.php">
+  <error line="1" column="1" severity="error" message="End of line character is invalid; expected &quot;\n&quot; but found &quot;\r\n&quot;" source="Generic.Files.LineEndings.InvalidEOLChar"/>
+  <error line="82" column="13" severity="error" message="&quot;require_once&quot; is a statement not a function; no parentheses are required" source="PEAR.Files.IncludingFile.BracketsNotRequired"/>
+  <error line="82" column="13" severity="error" message="File is being conditionally included; use &quot;include_once&quot; instead" source="PEAR.Files.IncludingFile.UseIncludeOnce"/>
+  <error line="89" column="88" severity="warning" message="Line exceeds 85 characters; contains 87 characters" source="Generic.Files.LineLength.TooLong"/>
+ </file>
+</checkstyle>
