@@ -32,7 +32,7 @@
     <!-- Use Unix newlines -->
     <rule ref="Generic.Files.LineEndings">
         <properties>
-            <property name="eolChar" value="\n"/>
+            <property name="eolChar" value="\r\n"/>
         </properties>
     </rule>
 
