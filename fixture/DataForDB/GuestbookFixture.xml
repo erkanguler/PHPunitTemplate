@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <table name="guestbook">
+        <column>id</column>
+        <column>content</column>
+        <column>user</column>
+        <row>
+            <value>1</value>
+            <value>Hello PHP</value>
+            <value>Emma</value>            
+        </row>
+        <row>
+            <value>2</value>
+            <value>Hi PHPUnit</value>
+            <value>Palle</value>
+        </row>
+         <row>
+            <value>3</value>
+            <value>Hello Facetime</value>
+            <value>Mats</value>
+        </row>
+    </table>
+</dataset>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PDepend>
+  <Packages>
+    <Package name="MyPackage">
+      <Stats>
+        <TotalClasses>3</TotalClasses>
+        <ConcreteClasses>3</ConcreteClasses>
+        <AbstractClasses>0</AbstractClasses>
+        <Ca>0</Ca>
+        <Ce>2</Ce>
+        <A>0</A>
+        <I>1</I>
+        <D>0</D>
+      </Stats>
+      <ConcreteClasses>
+        <Class sourceFile="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\src\Calculator.php">Calculator</Class>
+        <Class sourceFile="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\src\Guestbook.php">Guestbook</Class>
+        <Class sourceFile="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\src\Loader.php">Loader</Class>
+      </ConcreteClasses>
+      <AbstractClasses/>
+      <DependsUpon>
+        <Package>+pdo</Package>
+        <Package>+spl</Package>
+      </DependsUpon>
+      <UsedBy/>
+    </Package>
+  </Packages>
+  <Cycles/>
+</PDepend>

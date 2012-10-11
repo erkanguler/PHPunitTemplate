@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Dene_test_suite" tests="13" assertions="14" failures="0" errors="0" time="0.743144">
+    <testsuite name="CalculatorTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\CalculatorTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.014290">
+      <testcase name="testAdd" class="CalculatorTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\CalculatorTest.php" line="36" assertions="1" time="0.010709"/>
+      <testcase name="testAdd2" class="CalculatorTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\CalculatorTest.php" line="48" assertions="1" time="0.001167"/>
+      <testcase name="testAdd3" class="CalculatorTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\CalculatorTest.php" line="60" assertions="1" time="0.001273"/>
+      <testcase name="testAdd4" class="CalculatorTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\CalculatorTest.php" line="72" assertions="1" time="0.001141"/>
+    </testsuite>
+    <testsuite name="GuestbookTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\GuestbookTest.php" tests="4" assertions="5" failures="0" errors="0" time="0.717167">
+      <testcase name="testNumberOfRowsInGuestbook" class="GuestbookTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\GuestbookTest.php" line="27" assertions="2" time="0.190372"/>
+      <testcase name="testDataInTableGuestbook" class="GuestbookTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\GuestbookTest.php" line="36" assertions="1" time="0.253019"/>
+      <testcase name="testDataInTableGuestbook2" class="GuestbookTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\GuestbookTest.php" line="45" assertions="1" time="0.137392"/>
+      <testcase name="testDataInTableGuestbook3" class="GuestbookTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\GuestbookTest.php" line="54" assertions="1" time="0.136384"/>
+    </testsuite>
+    <testsuite name="LoaderTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\LoaderTest.php" tests="5" assertions="5" failures="0" errors="0" time="0.011687">
+      <testcase name="testLoad" class="LoaderTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\LoaderTest.php" line="38" assertions="1" time="0.003998"/>
+      <testcase name="testLoad2" class="LoaderTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\LoaderTest.php" line="50" assertions="1" time="0.002543"/>
+      <testcase name="testLoad3" class="LoaderTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\LoaderTest.php" line="64" assertions="1" time="0.002179"/>
+      <testcase name="testLoad4" class="LoaderTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\LoaderTest.php" line="75" assertions="1" time="0.001098"/>
+      <testcase name="testLoad5" class="LoaderTest" file="C:\Users\Facetime\Documents\NetBeansProjects\PHPunitTemplate\tests\src\LoaderTest.php" line="84" assertions="1" time="0.001869"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

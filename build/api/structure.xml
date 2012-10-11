@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2.0.0a10" title="">
+  <file path="Calculator.php" hash="99dfa5f3b89fddca80eb6b1933bdbd58" package="Default">
+    <docblock line="3">
+      <description><![CDATA[Facetime Media AB]]></description>
+      <long-description><![CDATA[<p>Copyright (c) 2001-2012, Facetime Media AB <a href="http://www.facetimemedia.se">http://www.facetimemedia.se</a>.
+All rights reserved.</p>
+
+<p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:</p>
+
+<ul>
+<li><p>Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</p></li>
+<li><p>Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in
+the documentation and/or other materials provided with the
+distribution.</p></li>
+<li><p>Neither the name of Facetime Media AB nor the names of his
+contributors may be used to endorse or promote products derived
+from this software without specific prior written permission.</p></li>
+</ul>
+
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.</p>]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="global" line="51" package="MyPackage">
+      <extends/>
+      <name>Calculator</name>
+      <full_name>\Calculator</full_name>
+      <docblock line="40">
+        <description><![CDATA[This class, <tt>Calculator</tt>, has responsiblity for arithmetic calculation.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="40" name="package" description="MyPackage"/>
+        <tag line="40" name="author" description="Erkan Güler"/>
+        <tag line="40" name="copyright" description="2001-2012 Facetime Media AB"/>
+        <tag line="40" name="license" description="http://www.facetimemedia.se/sv/about  The License"/>
+        <tag line="40" name="version" description="Release: 0.1.0"/>
+        <tag line="40" name="link" description="http://www.facetimemedia.se" link="http://www.facetimemedia.se"/>
+        <tag line="40" name="since" description="Class available since Release 0.1.0"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="60" package="MyPackage">
+        <name>add</name>
+        <full_name>add</full_name>
+        <docblock line="53">
+          <description><![CDATA[Adds two integers.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="53" name="param" description="" type="int" variable="$a">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="53" name="param" description="" type="int" variable="$b">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="53" name="return" description="" type="int">
+            <type by_reference="false">int</type>
+          </tag>
+        </docblock>
+        <argument line="60">
+          <name>$a</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="60">
+          <name>$b</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="Guestbook.php" hash="eeb6d554c658902218508561d01dbbea" package="Default">
+    <docblock line="2">
+      <description><![CDATA[PHPUnit]]></description>
+      <long-description><![CDATA[<p>Copyright (c) 2001-2012, Facetime Media AB <a href="http://www.facetimemedia.se">http://www.facetimemedia.se</a>.
+All rights reserved.</p>
+
+<p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:</p>
+
+<ul>
+<li><p>Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</p></li>
+<li><p>Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in
+the documentation and/or other materials provided with the
+distribution.</p></li>
+<li><p>Neither the name of Facetime Media AB nor the names of his
+contributors may be used to endorse or promote products derived
+from this software without specific prior written permission.</p></li>
+</ul>
+
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.</p>]]></long-description>
+    </docblock>
+    <class final="false" abstract="false" namespace="global" line="50" package="MyPackage">
+      <extends/>
+      <name>Guestbook</name>
+      <full_name>\Guestbook</full_name>
+      <docblock line="39">
+        <description><![CDATA[Manage guestbok.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="39" name="package" description="MyPackage"/>
+        <tag line="39" name="author" description="Erkan Güler"/>
+        <tag line="39" name="copyright" description="2001-2012 Facetime Media AB"/>
+        <tag line="39" name="license" description="http://www.facetimemedia.se/sv/about  The License"/>
+        <tag line="39" name="version" description="Release: 0.1.0"/>
+        <tag line="39" name="link" description="http://www.facetimemedia.se" link="http://www.facetimemedia.se"/>
+        <tag line="39" name="since" description="Class available since Release 0.1.0"/>
+      </docblock>
+      <property final="false" static="false" visibility="private" line="57" namespace="global" package="Default">
+        <name>$pdo</name>
+        <default><![CDATA[]]></default>
+        <docblock line="52">
+          <description><![CDATA[Contains a PDO object reference.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="52" name="var" description="" type="\PDO">
+            <type by_reference="false">\PDO</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="64" package="MyPackage">
+        <name>__construct</name>
+        <full_name>__construct</full_name>
+        <docblock line="59">
+          <description><![CDATA[Constructor for Guestbook.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="59" name="param" description="" type="\PDO" variable="$pdo">
+            <type by_reference="false">\PDO</type>
+          </tag>
+        </docblock>
+        <argument line="64">
+          <name>$pdo</name>
+          <default><![CDATA[]]></default>
+          <type>\PDO</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="76" package="MyPackage">
+        <name>addEntry</name>
+        <full_name>addEntry</full_name>
+        <docblock line="68">
+          <description><![CDATA[Adds guestbook entries into the table guestbook.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="68" name="param" description="" type="int" variable="$id">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="68" name="param" description="" type="string" variable="$content">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="68" name="param" description="" type="string" variable="$user">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="68" name="return" description="" type="boolean">
+            <type by_reference="false">boolean</type>
+          </tag>
+        </docblock>
+        <argument line="76">
+          <name>$id</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="76">
+          <name>$content</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+        <argument line="76">
+          <name>$user</name>
+          <default><![CDATA[]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <file path="Loader.php" hash="0efacfe2fa55a48609167a232e914d74" package="Default">
+    <docblock line="2">
+      <description><![CDATA[PHPUnit]]></description>
+      <long-description><![CDATA[<p>Copyright (c) 2001-2012, Facetime Media AB <a href="http://www.facetimemedia.se">http://www.facetimemedia.se</a>.
+All rights reserved.</p>
+
+<p>Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:</p>
+
+<ul>
+<li><p>Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.</p></li>
+<li><p>Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in
+the documentation and/or other materials provided with the
+distribution.</p></li>
+<li><p>Neither the name of Facetime Media AB nor the names of his
+contributors may be used to endorse or promote products derived
+from this software without specific prior written permission.</p></li>
+</ul>
+
+<p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.</p>]]></long-description>
+    </docblock>
+    <include line="82" type="Require Once" package="Default">
+      <name/>
+    </include>
+    <class final="false" abstract="false" namespace="global" line="50" package="MyPackage">
+      <extends/>
+      <name>Loader</name>
+      <full_name>\Loader</full_name>
+      <docblock line="39">
+        <description><![CDATA[This class <tt>Loader</tt> has responsiblity for loading classes.]]></description>
+        <long-description><![CDATA[]]></long-description>
+        <tag line="39" name="package" description="MyPackage"/>
+        <tag line="39" name="author" description="Erkan Güler"/>
+        <tag line="39" name="copyright" description="2001-2012 Facetime Media AB"/>
+        <tag line="39" name="license" description="http://www.facetimemedia.se/sv/about  The License"/>
+        <tag line="39" name="version" description="Release: 0.1.0"/>
+        <tag line="39" name="link" description="http://www.facetimemedia.se" link="http://www.facetimemedia.se"/>
+        <tag line="39" name="since" description="Class available since Release 0.1.0"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="67" package="MyPackage">
+        <name>load</name>
+        <full_name>load</full_name>
+        <docblock line="52">
+          <description><![CDATA[Loads the specified class.]]></description>
+          <long-description><![CDATA[]]></long-description>
+          <tag line="52" name="assert" description="('Person') == new Person()"/>
+          <tag line="52" name="assert" description="('Car') == new Car()"/>
+          <tag line="52" name="assert" description="() throws InvalidArgumentException"/>
+          <tag line="52" name="assert" description="('NoClass') throws UnexpectedValueException"/>
+          <tag line="52" name="assert" description="('Car') == new Car()"/>
+          <tag line="52" name="staticvar" description="array $classRegistry"/>
+          <tag line="52" name="param" description="" type="string" variable="$className">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="52" name="return" description="class" type="\loaded">
+            <type by_reference="false">\loaded</type>
+          </tag>
+          <tag line="52" name="throws" description="" type="\InvalidArgumentException">
+            <type by_reference="false">\InvalidArgumentException</type>
+          </tag>
+          <tag line="52" name="throws" description="" type="\UnexpectedValueException">
+            <type by_reference="false">\UnexpectedValueException</type>
+          </tag>
+        </docblock>
+        <argument line="67">
+          <name>$className</name>
+          <default><![CDATA[NULL]]></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="MyPackage" full_name="MyPackage"/>
+  <namespace name="global" full_name="global"/>
+  <marker count="0">todo</marker>
+  <marker count="0">fixme</marker>
+  <deprecated count="0"/>
+</project>
