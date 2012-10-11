@@ -7,7 +7,7 @@
   <description>Description of your coding standard</description>
 
   
-  <rule ref="rulesets/codesize.xml/CyclomaticComplexity" />
+  <rule ref="rulesets/codesize.xml" />
 
   <!-- <rule ref="rulesets/codesize.xml/CyclomaticComplexity" /> -->
 </ruleset>
